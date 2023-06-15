@@ -1,0 +1,45 @@
+/* reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* global */
+
+header,
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: #34a5e2;
+  text-decoration: none;
+  display: inline;
+}
+/* team members */
+
+.team-card {
+  background-color: #0f0e17;
+  color: #fffffe;
+  float: left;
+  width: 30%;
+  text-align: left;
+  margin: 1%;
+}
+
+img {
+  float: left;
+  height: 100px;
+}
+
+/* utility */
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
